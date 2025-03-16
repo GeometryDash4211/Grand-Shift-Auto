@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fullscreen Game</title>
+    <title>Game Window</title>
     <style>
         body {
             margin: 0;
             overflow: hidden;
+            background-color: #000; /* Optional: to match a game aesthetic */
         }
         iframe {
+            display: block;
             width: 100vw;
             height: 100vh;
             border: none;
@@ -17,6 +19,7 @@
     </style>
 </head>
 <body>
+    <!-- Replace 'game-source.html' with the actual path to your game -->
     <iframe src="iframe/gas2.html" allowfullscreen></iframe>
 </body>
 </html>
